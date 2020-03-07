@@ -3,6 +3,7 @@ Here we are going to setup a python script to get message in WhatsAppw when ther
 
 #### Pre Request 
 -Pyhton 3.x should installed on your server.
+
 -You need root access
 
 
