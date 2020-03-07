@@ -27,7 +27,7 @@ URL: https://www.twilio.com/docs/sms/whatsapp/api
 
 
 
-### Now we need to take ssh log from the server.  Execute the below command will get the latest log entry.
+### Next we need to parse ssh log from the server.  Execute the below command will get the latest log entry.
 
 ```
 # sudo tail -100 /var/log/secure |grep Accepted| tail -1
