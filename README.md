@@ -1,4 +1,4 @@
-## Overview
+### Overview
 Here we are going to setup a python script to get message in WhatsAppw when there is new SSH root access is established. 
 
 #### Pre Request 
@@ -7,33 +7,33 @@ Here we are going to setup a python script to get message in WhatsAppw when ther
 
 
 
-### Create an account in Twilio:  https://www.twilio.com/
+#### Create an account in Twilio:  https://www.twilio.com/
 -Note the Account SDI and Token
 -To setup the account visit the URL:https://www.twilio.com/docs/sms/whatsapp/quickstart/python
 
 
 
-### Login to your server and execute the below commands to install the twilio library.
+#### Login to your server and execute the below commands to install the twilio library.
 
 ```
  pip3 install twilio
 ```
 
 
-### Now visit the below and copy the code associated with Python
+#### Now visit the below and copy the code associated with Python
 
 URL: https://www.twilio.com/docs/sms/whatsapp/api 
 
 
 
-### Now we need to take ssh log from the server.  Execute the below command will get the latest log entry.
+#### Now we need to take ssh log from the server.  Execute the below command will get the latest log entry.
 
 ```
 # sudo tail -100 /var/log/secure |grep Accepted| tail -1
 ```
 
 
-### Code
+#### Code
 ```
 import os
 import time
@@ -56,10 +56,10 @@ message = client.messages.create(
 #print(message.sid)
 ```
 
-### Then we need to add this into user's .bashrc  (root user account)
+#### Then we need to add this into user's .bashrc  (root user account)
 
 ```
 python3 /home/ec2-user/whataApp.py
 ```
 
-## Now access your server!!
+### Now access your server!!
