@@ -1,5 +1,5 @@
 ## Overview
-Here we are going to setup a python script to get message in WhatsAppw when there is new SSH root access is established. 
+In this article, we'll take a look at how Python can be used by System Administrators to get message in WhatsAppw when there is new SSH root access is established. 
 
 ### Pre Request 
 -Pyhton 3.x should installed on your server.
