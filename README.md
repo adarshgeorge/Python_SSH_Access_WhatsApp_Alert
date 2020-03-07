@@ -37,7 +37,7 @@ URL: https://www.twilio.com/docs/sms/whatsapp/api
 ### Code
 ```
 import os
-import time
+
 from twilio.rest import Client
 f = os.popen('sudo tail -100 /var/log/secure |grep Accepted| tail -1')
 login = f.read()
