@@ -21,7 +21,7 @@ Here we are going to setup a python script to get message in WhatsAppw when ther
 ```
 
 
-### Now visit the below and copy the code associated with Python
+### Now visit the below URL and copy the code associated with Python
 
 URL: https://www.twilio.com/docs/sms/whatsapp/api 
 
