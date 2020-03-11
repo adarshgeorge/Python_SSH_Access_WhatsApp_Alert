@@ -34,6 +34,7 @@ URL: https://www.twilio.com/docs/sms/whatsapp/api
 # sudo tail -100 /var/log/secure |grep Accepted| tail -1
 ```
 
+Now we're going to create the code. Please replace account_SDI and the tokenid in your code.
 
 ### Code
 ```
