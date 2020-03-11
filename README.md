@@ -9,8 +9,8 @@ In this article, we'll take a look at how Python can be used by System Administr
 
 
 ### Create an account in Twilio:  https://www.twilio.com/
--Note the Account SDI and Token
--To setup the account visit the URL:https://www.twilio.com/docs/sms/whatsapp/quickstart/python
+Note the Account SDI and Token
+To setup the account visit the URL:https://www.twilio.com/docs/sms/whatsapp/quickstart/python
 
 
 
